@@ -1,0 +1,776 @@
+body{
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    background-color: /* #00001a */ rgb(3, 3, 20) ;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.navbar{
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.navbar img{
+    width: 150px;
+    padding-left: 80px;
+    padding-top: 0px;
+    padding-bottom: 12px;
+}
+.left{
+    padding-right: 19rem;;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+    margin: 0;
+}
+
+.mid a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 12px;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+header{
+    border: 1px solid gainsboro;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+header .right{
+    display: flex;
+    padding-left: 340px;
+}
+
+header .right #search{
+    color: white;
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+header .right #cart{
+    color: white;
+    margin-top: 6px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+header .right #profile{
+    color: white;
+    margin-top: 2px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.bai{
+    border-radius: 60px;
+    margin-top: 50px;
+    background: #161D29;
+    color: white;
+    padding: 6px;
+}
+
+main #text{
+    color: white;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: right;
+    margin-top: 30px;
+}
+
+#end{
+    color: aqua;
+}
+
+main p{
+    color: white;
+    /* margin-top: 30px; */
+}
+
+#boxoffice{
+    width: 800px;
+}
+
+#buttons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main .learn-more{
+    background-color: yellow;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font: 15px solid black;
+}
+
+main .demo{
+    padding: 10px 8px;
+    border-radius: 10px;
+    font: 15px solid black;
+    background: #161D29;
+    color: white;
+}
+
+/* GIF Animation */
+
+body {
+font-family: monospace;
+font-weight: 700;
+font-size: 10px;
+padding:20px;
+/* background:#005F6B; */
+/* color:#00DFFC */
+}
+
+.type {
+    color:#0000;
+    background:
+        linear-gradient(-90deg,white 5px,#0000 0) 10px 0,
+        linear-gradient(white 0 0) 0 0;
+    background-size:calc(var(--n)*1ch) 200%;
+    -webkit-background-clip:padding-box,text;
+    background-clip:padding-box,text;
+    background-repeat:no-repeat;
+    animation: 
+        b .7s infinite steps(1),   
+        t calc(var(--n)*.1s) steps(var(--n)) forwards;
+}
+
+@keyframes t{
+    from {background-size:0 200%}
+}
+@keyframes b{
+    50% {background-position:0 -100%,0 0}
+}
+
+
+#anm1-div{
+    /* border: 2px solid white; */
+    display: flex;
+    width: 100%;
+}
+
+#anm1-left{
+    /* border: 2px solid white; */
+    color: white;
+    margin: 30px 0px 30px 130px;
+    font-size: 12px;
+}
+
+#try-yourself{
+    background-color: yellow;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font: 15px solid black;
+    margin-left: 2px;
+    margin-top: 20px;
+    border: none;
+}
+
+
+#learn-more-anm{
+    background: #161D29;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font: 15px solid black;
+    margin-left: 10px;
+    margin-top: 2rem;
+    border: none;
+}
+
+
+#demo{
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+
+.container{
+    width: 370px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+#anm1-mid{
+    /* border: 2px solid white; */
+    color: white;
+    margin: 18px 5px 30px 160px;
+    padding-top: 25px;
+}
+
+#anm1-right{
+    display: inline-block;
+    justify-content: right;
+    /* border: 2px solid white; */
+    margin: 18px 50px 30px 5px;
+    font-size: 12px;
+    padding-top: 25px;
+}
+
+#count{
+    color: white;
+    font-size: 12px;
+}
+
+#anm2-div{
+    /* border: 2px solid white; */
+    display: flex;
+    width: 100%;
+    padding-left: 150px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#anm2-mid{
+    color: white;
+    font-size: 12px;
+    margin-left: 7px;
+    /* border: 2px solid white; */
+}
+
+
+#count-anm2{
+    color: white;
+    font-size: 12px;
+    /* border: 2px solid white; */
+    margin-right: 2px;
+    padding-top: 25px;
+}
+
+#anm2-right{
+    /* border: 2px solid white; */
+    color: white;
+    margin-left: 180px;
+    font-size: 12px;
+}
+
+#con-lesson{
+    margin-top: 20px;
+}
+
+#learn_more_anm{
+    background: #161D29;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font: 15px solid black;
+    margin-left: 10px;
+    margin-top: 2rem;
+    border: none;
+}
+
+
+#con-lesson{
+    background-color: yellow;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font: 15px solid black;
+}
+
+#stis{
+    color: white;
+    font-size: 15px;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
+}
+
+#stis-1{
+    color: aqua;
+}
+
+#learn{
+    color: white;
+    font-size: 15px;
+    /* border: 2px solid pink; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5px 5px 5px 5px;
+}
+
+#html{
+    /* border: 2px solid red; */
+    width: 20%;
+    background: #161D29;
+    padding: 0.5rem;
+}
+
+#css{
+    /* border: 2px solid red; */
+    width: 20%;
+    margin-left: 30px;
+    background: #161D29;
+    padding: 0.5rem;
+}
+
+#web-design{
+    /* border: 2px solid red; */
+    width: 20%;
+    margin-left: 30px;
+    background: #161D29;
+    padding: 0.5rem;
+}
+
+#learn .head{
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+#learn .p-content{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#dotted{
+    border: 2px dotted white;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    margin-bottom: 10px;
+}
+
+#learn .foot{
+    font-size: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#learn .left-foot{
+    margin-left: 1rem;
+    font-size: 12px;
+    
+}
+
+#learn .right-foot{
+    margin-left: 4rem;
+    font-size: 12px;
+}
+
+/* #web-design::hover{
+    box-shadow: ;
+} */
+
+
+#white-btn-left{
+    background-color: yellow;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font: 15px solid black;
+    margin-left: 10px;
+    margin-top: 4rem;
+    border: none;
+}
+
+#white-btn-right{
+    background-color: #161D29;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font: 15px solid black;
+    margin-left: 10px;
+    margin-top: 4rem;
+    border: none;
+    color: white;
+}
+
+#white-divs{
+    display: flex;
+    width: 100%;
+    /* border: 2px solid white; */
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+
+#white-left{
+    color: black;
+    font-size: 14px;
+    /* border: 2px solid white; */
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 5rem;
+    width: 50%;
+}
+
+#white-right{
+    color: black;
+    font-size: 14px;
+    /* border: 2px solid white; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 50%;
+}
+
+#white-right p{
+    color: black;
+}
+
+#white-right button{
+    margin-top: 2rem;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font: 15px solid black;
+    margin-left: 10px;
+    background-color: yellow;
+    font-weight: 600;
+    border: none;
+}
+
+#white-color{
+    z-index: -100;
+    height: 1rem;
+}
+
+#white-bg{
+    height: 75rem;
+    width: 100%;
+    margin-top: 106rem;
+    margin-bottom: 10rem;
+}
+
+#learn-more-1{
+    background-color: yellow;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font: 15px solid black;
+    margin-left: 10px;
+    margin-top: 3rem;
+    border: none;
+}
+
+
+/* Background Image */
+
+/* #cross{
+    height: 1rem;
+    width: 100%;
+    z-index: -1000;
+}
+
+#img1{
+    margin-top: 105rem;
+    z-index: -90;
+    height: 280px;
+    width: 50%;
+}
+
+#img2{
+    margin-top: 105rem;
+    z-index: -90;
+    height: 280px;
+    margin-left: 10rem;
+    width: 100%;
+} */
+
+#swiss{
+    font-size: 25px;
+    color: black;
+}
+
+#swiss-p{
+    font-size: 12px;
+    color: black;
+}
+
+#rotate-img{
+    display: flex;
+    width: 100%;
+}
+
+#img1{
+    /* border: 2px solid white; */
+    width: 150px;
+    margin-left: 12rem;
+}
+
+#img1 img{
+    width: 24rem;
+}
+
+#img2{
+    /* border: 2px solid white; */
+    width: 150px;
+    margin-left: 5rem;
+}
+
+#img2 img{
+    width: 24rem;
+}
+
+#img3{
+    /* border: 2px solid white; */
+    width: 150px;
+    margin-left: 5rem;
+    /* margin-right: 22rem; */
+}
+
+#img3 img{
+    width: 24rem;
+}
+
+#last-two{
+    margin-top: 10rem;
+    width: 100%;
+    /* border: 2px solid white; */
+    position: relative;
+    /* display: flex; */
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#last-left{
+    /* background: white; */
+    width: 40%;
+    /* border: 2px solid white; */
+    height: 26rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding-left: 6rem;
+}
+    
+#front{
+    margin: 1rem 0rem 1rem 1rem; 
+}
+
+#left-overlap{
+    width: 22rem;
+    background: white;
+    /* border: 2px solid white; */
+    height: 22rem;
+    margin: 2rem 0rem 2rem 2rem; 
+}
+
+#left-overlap img{
+    width: 22rem;
+    height: 22rem;
+}
+
+#last-right{
+    /* border: 2px solid white; */
+    margin: 2rem 2rem 2rem 0rem;
+    width: 50%;
+}
+
+#instructor{
+    /* border: 2px solid white; */
+    color: white;
+    margin-top: 8rem;
+    font-size: 2rem;
+}
+#last-right p{
+    font-size: 13px;
+}
+
+#teach{
+    background-color: yellow;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font: 15px solid black;
+    margin-left: 10px;
+    margin-top: 2rem;
+    border: none;
+}
+
+#review-text{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+}
+
+#review{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+#profile{
+    font-size: 1.5rem;
+    padding: 5px 5px 5px 5px;
+}
+
+
+#review-div{
+    display: flex;
+    /* border: 1px solid white; */
+    color: white;
+}
+
+#profile{
+    /* border: 1px solid white; */
+    font-size: 25px;
+}
+
+#name{
+    /* border: 1px solid white; */
+    height: 5px;
+    width: 50%;
+    margin-top: 3px;
+}
+
+#review-content{
+    margin: 12px 2px 2px 5px;
+}
+
+#star{
+    /* border: 1px solid white; */
+    /* color: yellow; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5px;
+    font-size: 12px;
+    display: flex; 
+    justify-content: space-between;
+    padding-right: 5rem;
+    /* border: 1px solid white; */
+}
+
+#star p{
+    /* border: 1px solid white; */
+    margin-top: 0;
+}
+
+#star1{
+    color: yellow;
+}
+
+#star2{
+    color: yellow;
+}
+
+#star3{
+    color: yellow;
+}
+
+#star4{
+    color: yellow;
+}
+
+#star5{
+    color: white;
+}
+
+#review-1{
+    background: #161D29;
+    width: 14rem;
+    height: 9rem;
+    margin-left: 100px;
+    width: 14rem;
+}
+
+#review-2{
+    background: #161D29;
+    width: 14rem;
+    height: 9rem;
+    width: 14rem;
+}
+
+#review-3{
+    background: #161D29;
+    width: 14rem;
+    height: 9rem;
+    width: 14rem;
+}
+
+#review-4{
+    background: #161D29;
+    width: 14rem;
+    height: 9rem;
+    margin-right: 100px;
+    width: 14rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    order: 1px solid gainsboro;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    background: #161D29;
+    height: 36rem;
+}
+
+#footer{
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    border: 2px solid white;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+
+    margin-top: 20px;
+}
+
+footer #leftmost{
+    list-style: none;
+}
+
+footer #leftmost ul img{
+    width: 150px;
+}
+
+footer #leftmost ul i{
+    padding-right: 3px;
+}
+
+#center-line{
+    border-right: 2px solid white;
+    height: 425px;
+}
+
+#down{
+    border: 2px solid white;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#downmost{
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+footer #downmost #bottom-right{
+    margin-left: 420px;
+}
