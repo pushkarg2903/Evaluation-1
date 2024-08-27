@@ -8,6 +8,7 @@ body{
 .navbar{
     border-bottom: 1px solid black;
     display: flex;
+    /* border: 2px solid white; */
 }
 
 .navbar img{
@@ -17,7 +18,8 @@ body{
     padding-bottom: 12px;
 }
 .left{
-    padding-right: 19rem;;
+    padding-right: 15rem;;
+    /* border: 2px solid white; */
 }
 
 .mid{
@@ -26,6 +28,7 @@ body{
     align-items: center;
     /* width: 80%; */
     margin: 0;
+    /* border: 2px solid white; */
 }
 
 .mid a{
@@ -46,7 +49,8 @@ header{
 
 header .right{
     display: flex;
-    padding-left: 340px;
+    padding-left: 23rem;
+    /* border: 2px solid white; */
 }
 
 header .right #search{
@@ -69,6 +73,15 @@ header .right #profile{
     font-size: 15px;
 }
 
+.right a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 12px;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
 .bai{
     border-radius: 60px;
     margin-top: 50px;
@@ -76,6 +89,12 @@ header .right #profile{
     color: white;
     padding: 6px;
 }
+
+
+
+/*  MAIN  */
+
+
 
 main #text{
     color: white;
@@ -711,7 +730,7 @@ padding:20px;
 
 
 
-
+/*  FOOTER  */
 
 
 
