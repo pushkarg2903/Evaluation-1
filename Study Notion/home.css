@@ -76,11 +76,50 @@ header .right #profile{
 .right a{
     color: white;
     text-decoration: none;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
     display: inline-block;
     margin: 0 10px;
     font-size: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  MAIN  */
 
 .bai{
     border-radius: 60px;
@@ -89,11 +128,6 @@ header .right #profile{
     color: white;
     padding: 6px;
 }
-
-
-
-/*  MAIN  */
-
 
 
 main #text{
